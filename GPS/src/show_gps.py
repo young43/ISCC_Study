@@ -12,6 +12,8 @@ proj_UTMK = Proj(init='epsg:5178')
 proj_WGS84 = Proj(init='epsg:4326')
 
 if __name__=='__main__':
+    # python show_gps 경로1 경로2 ...
+    # python show_gps.py ../kml/kml_notrk_20210201.kml ../kml/kml_rtk_20210201.kml
     if len(sys.argv) != 2:
         print('Non KML file''s directory...')
         pass
@@ -33,7 +35,7 @@ if __name__=='__main__':
         file_name = path.split('/')[-1].split('.')[0]
         plt.plot(x_coord, y_coord, label=file_name)
 
-    plt.title('KML to UTM-K')
+    plt.title('KML(GPS) to UTM-K')
     plt.legend()
     plt.show()
 
