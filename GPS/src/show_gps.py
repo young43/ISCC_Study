@@ -16,11 +16,7 @@ if __name__=='__main__':
         print('Non KML file''s directory...')
         pass
 
-    fig = plt.figure()
-
     for idx, path in enumerate(sys.argv[1:]):
-        ax1 = fig.add_subplot(len(sys.argv)-1, 1, 1)
-
         root = parser.fromstring(open(path, 'r').read())
         x_lst = []
         y_lst = []
@@ -34,8 +30,10 @@ if __name__=='__main__':
         coordinate = np.array([pt for pt in itransform(proj_WGS84, proj_UTMK, zip(x_lst, y_lst))])
         x_coord, y_coord = np.hsplit(coordinate, 2)
 
-        ax1.plot(x_coord, y_coord)
-        ax1.set_title('KML to UTM-K({})'.format(idx+1))
+        file_name = path.split('/')[-1].split('.')[0]
+        plt.plot(x_coord, y_coord, label=file_name)
 
+    plt.title('KML to UTM-K')
+    plt.legend()
     plt.show()
 
