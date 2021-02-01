@@ -1,4 +1,4 @@
 <launch>
-    <node name="racecar" pkg="racecar" type="ros_main.py" output="screen"/>
-
+    <node name="gps_to_kml" pkg="GPS" type="get_gps.py" output="screen"/>
+    
 </launch>
