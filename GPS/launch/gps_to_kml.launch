@@ -1,4 +1,4 @@
 <launch>
     <node name="gps_to_kml" pkg="GPS" type="get_gps.py" output="screen"/>
-    
+
 </launch>
