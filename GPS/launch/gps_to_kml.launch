@@ -1,0 +1,4 @@
+<launch>
+    <node name="racecar" pkg="racecar" type="ros_main.py" output="screen"/>
+
+</launch>
