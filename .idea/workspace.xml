@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068dde37-545b-46b8-8aac-c7eb301f7208" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/GPS/launch/gps_to_kml.launch" beforeDir="false" afterPath="$PROJECT_DIR$/GPS/launch/gps_to_kml.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISCC/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISCC/GPS/bagfiles/gps_nortk_20210201.bag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISCC/GPS/bagfiles/gps_rtk_20210201.bag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISCC/GPS/launch/gps_to_kml.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISCC/GPS/src/get_gps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISCC/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISCC/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ISCC_Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ISCC_Study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,20 +16,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GPS/src/get_gps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="1050">
+              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
               <folding>
-                <element signature="e#47#60#0" expanded="true" />
+                <element signature="e#46#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GPS/launch/gps_to_kml.launch">
+        <entry file="file://$PROJECT_DIR$/GPS/src/show_gps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="315">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="e#46#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,23 +52,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GPS/src/get_gps.py" />
         <option value="$PROJECT_DIR$/GPS/launch/gps_to_kml.launch" />
+        <option value="$PROJECT_DIR$/GPS/src/show_gps.py" />
+        <option value="$PROJECT_DIR$/GPS/src/get_gps.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="800" />
-    <option name="y" value="34" />
+    <option name="y" value="-1" />
     <option name="width" value="1120" />
-    <option name="height" value="1030" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,6 +91,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,13 +121,21 @@
       <option name="presentableId" value="Default" />
       <updated>1612166957207</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'main' of https://github.com/young43/ISCC_Study into main&#10;&#10;# Conflicts:&#10;#&#9;GPS/src/get_gps.py">
+      <created>1612327154103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612327154103</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="34" width="1120" height="1030" extended-state="0" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22202002" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13304253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -139,7 +145,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3108108" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -148,21 +154,35 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' of https://github.com/young43/ISCC_Study into main&#10;&#10;# Conflicts:&#10;#&#9;GPS/src/get_gps.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/young43/ISCC_Study into main&#10;&#10;# Conflicts:&#10;#&#9;GPS/src/get_gps.py" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GPS/launch/gps_to_kml.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GPS/src/get_gps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="1050">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
           <folding>
-            <element signature="e#47#60#0" expanded="true" />
+            <element signature="e#46#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GPS/launch/gps_to_kml.launch">
+    <entry file="file://$PROJECT_DIR$/GPS/src/show_gps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="315">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#46#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
